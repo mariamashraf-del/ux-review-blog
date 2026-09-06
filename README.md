@@ -8,7 +8,7 @@ The project focuses on creating a visually engaging blog experience for readers 
 
 ## 🚀 Live Demo
 
-
+https://mariamashraf-del.github.io/ux-review-blog/
 
 
 ---
