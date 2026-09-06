@@ -1,0 +1,119 @@
+@media (max-width:64rem){
+    .header .container,
+    .main .container,
+    .nav .container,
+    .content-1 .container,
+    .content-2 .container,
+    .footer .container{
+        width: 100%;
+    }
+    .header .container{
+        flex-direction: column;
+        padding: 3.75rem 1.25rem;
+    }
+    .header .left-header ,
+    .header .right-header{
+        width: 100%;
+    }
+    .header .right-header .overflow{
+        transform: rotate(0);
+    }
+    .header .right-header .overflow:hover{
+        transform: rotate(0) translate(0 , 0);
+    }
+    .header .shape-3{
+        display: none;
+    }
+    .main .container{
+        padding-block: 4.375rem;
+        flex-direction: column;
+        padding-inline: 1.25rem;
+    }
+    .main .left-main .articles{
+        flex-direction: column;
+    }
+    .main .left-main .articles .right-article .info{
+        flex-direction: column;
+        gap: .1875rem;
+    }
+    .content-1.container{
+        padding-inline: 1.25rem;
+    }
+    .content-1 .authors{
+        flex-direction: column;
+    }
+    .content-1 .authors .item-1,.item-2,.item{
+        padding-right: 0;
+        padding: 1.25rem;
+    }
+    .content-2 .container{
+        padding-inline: 1.25rem;
+    }
+    .content-2 .community{
+        flex-direction: column;
+        padding-block: 1.25rem;
+    }
+    .content-2 .community .left-comm{
+        width: 100%;
+    }
+    .content-2 .community .right-comm{
+        width: 100%;
+    }
+    .footer .container{
+        padding-inline: 1.25rem;
+    }
+    .footer .top-footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3.125rem;
+    }
+    .footer .top-footer .top-left{
+        width: 100%;
+        flex: 1;
+    }
+    .footer .top-footer .top-middle{
+        width: 100%;
+        flex: 1;
+    }
+    .footer .top-footer .top-right{
+        width: 100%;
+        flex: 1;
+    }
+    .footer .bottom-footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.875rem;
+    }
+    .footer .bottom-footer .bottom-left{
+        width: 100%;
+    }
+    .footer .bottom-footer .bottom-right{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .nav{
+        padding: .625rem 1.25rem;
+        height: 4.375rem;
+        width: 90%;
+    }
+    .nav button{
+        background-color: #fff;
+        font-size: 1.25rem;
+        border-radius: .25rem;
+        padding: .625rem .4375rem;
+        box-shadow: #000 .1875rem .1875rem;
+        position: relative;
+    }
+    .nav .links{
+        display: none;
+    }
+    .nav button i{
+        display: block;
+    }
+    .nav button p{
+        display: none;
+    }
+}
